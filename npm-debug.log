@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'D:\\workspace\\nodejs',
+6 verbose install   [ 'express',
+6 verbose install     'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'morgan',
+6 verbose install     'serve-favicon',
+6 verbose install     'debug',
+6 verbose install     'ejs',
+6 verbose install     'less-middleware',
+6 verbose install     'mongodb',
+6 verbose install     'express-session',
+6 verbose install     'connect-mongo',
+6 verbose install     'connect-flash' ] ]
+7 info preinstall nodejs@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping express@~4.9.0 D:\workspace\nodejs
+10 verbose already installed skipping body-parser@~1.8.1 D:\workspace\nodejs
+11 verbose already installed skipping cookie-parser@~1.3.3 D:\workspace\nodejs
+12 verbose already installed skipping morgan@~1.3.0 D:\workspace\nodejs
+13 verbose already installed skipping serve-favicon@~2.1.3 D:\workspace\nodejs
+14 verbose already installed skipping debug@~2.0.0 D:\workspace\nodejs
+15 verbose already installed skipping ejs@~0.8.5 D:\workspace\nodejs
+16 verbose already installed skipping less-middleware@1.0.x D:\workspace\nodejs
+17 verbose cache add [ 'mongodb@2.6.0', null ]
+18 verbose cache add name=undefined spec="mongodb@2.6.0" args=["mongodb@2.6.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'mongodb@2.6.0',
+19 verbose parsed url   path: 'mongodb@2.6.0',
+19 verbose parsed url   href: 'mongodb@2.6.0' }
+20 verbose already installed skipping express-session@1.9.1 D:\workspace\nodejs
+21 verbose already installed skipping connect-mongo@0.4.1 D:\workspace\nodejs
+22 verbose already installed skipping connect-flash@0.1.1 D:\workspace\nodejs
+23 verbose cache add name="mongodb" spec="2.6.0" args=["mongodb","2.6.0"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '2.6.0',
+24 verbose parsed url   path: '2.6.0',
+24 verbose parsed url   href: '2.6.0' }
+25 verbose addNamed [ 'mongodb', '2.6.0' ]
+26 verbose addNamed [ '2.6.0', '2.6.0' ]
+27 silly lockFile dca9b5e2-mongodb-2-6-0 mongodb@2.6.0
+28 verbose lock mongodb@2.6.0 C:\Users\hyl\AppData\Roaming\npm-cache\dca9b5e2-mongodb-2-6-0.lock
+29 verbose request where is /mongodb
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id d359cb55a447975d
+32 verbose url raw /mongodb
+33 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+34 verbose url resolved https://registry.npmjs.org/mongodb
+35 verbose request where is https://registry.npmjs.org/mongodb
+36 info trying registry request attempt 1 at 10:49:35
+37 verbose etag "EPZ153NSMDDRBWISEPKPWNPIL"
+38 http GET https://registry.npmjs.org/mongodb
+39 http 304 https://registry.npmjs.org/mongodb
+40 silly registry.get cb [ 304,
+40 silly registry.get   { date: 'Sun, 14 Dec 2014 02:49:30 GMT',
+40 silly registry.get     server: 'Apache',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     'last-modified': 'Sun, 14 Dec 2014 02:48:12 GMT',
+40 silly registry.get     'cache-control': 'max-age=60',
+40 silly registry.get     etag: '"EPZ153NSMDDRBWISEPKPWNPIL"',
+40 silly registry.get     age: '15',
+40 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+40 silly registry.get     'x-cache': 'HIT',
+40 silly registry.get     'x-cache-hits': '3',
+40 silly registry.get     'x-timer': 'S1418525370.918672,VS0,VE0',
+40 silly registry.get     vary: 'Accept',
+40 silly registry.get     'content-length': '0',
+40 silly registry.get     'keep-alive': 'timeout=10, max=50',
+40 silly registry.get     connection: 'Keep-Alive' } ]
+41 verbose etag https://registry.npmjs.org/mongodb from cache
+42 silly lockFile dca9b5e2-mongodb-2-6-0 mongodb@2.6.0
+43 silly lockFile dca9b5e2-mongodb-2-6-0 mongodb@2.6.0
+44 error Error: version not found: mongodb@2.6.0
+44 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+44 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+44 error     at Object.oncomplete (fs.js:107:15)
+45 error If you need help, you may report this *entire* log,
+45 error including the npm and node versions, at:
+45 error     <http://github.com/npm/npm/issues>
+46 error System Windows_NT 6.1.7601
+47 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+48 error cwd D:\workspace\nodejs
+49 error node -v v0.10.33
+50 error npm -v 1.4.28
+51 verbose exit [ 1, true ]
